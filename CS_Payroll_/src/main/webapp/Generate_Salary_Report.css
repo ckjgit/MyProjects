@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+h2, h3, h4{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    border: 2px solid black;
+    margin: 20px;
+}
+.column{
+    flex: 50%;
+    padding: 20px;
+    height: 200px;
+}
+
+.vl{
+    border-left: 2px Solid black;
+    height: 200px;
+}
+
+.table01{
+    width: 100%;
+    height: 100%;
+    font-size: larger;
+}
+
+.table02{
+    width: 97%;
+    height: 100%;
+    font-size: larger;
+    border: 2px solid black;
+}
+
+tr{
+    width: 100%;
+}
+.th1{
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+.th2{
+    text-align: left;
+    border-top: 2px solid black;
+}
+.th3{
+    text-align: left;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.th4{
+    text-align: left;
+    border-left: 2px solid black;
+}
+.th5{
+    text-align: left;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+}
+.lab01{
+    text-align: left;
+    padding: 20px;
+}

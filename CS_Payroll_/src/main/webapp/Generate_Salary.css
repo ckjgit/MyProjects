@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(182, 205, 225);
+}
+
+.Title {
+    color: rgb(90, 41, 41);
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+  }
+
+nav {
+    background-color: rgba(62, 221, 110, 0.811);
+    overflow: hidden;
+    padding: 15px;
+    color: white;
+}
+
+/* .Input-select {
+    display: inline;
+    padding: 1 em;
+    color: #063c59;
+    background-color: #dee8f1;
+    height: 30%;
+    width: 40%;
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 25px;
+    border: none;
+    border-radius: 0.3rem;
+  } */
+
+  .Input-label-01 {
+    display: inline;
+    position: initial;
+    color: rgb(121, 20, 20);
+    font-family: 'Courier New', Monospace;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 15px;
+  }
+  
+
+  .upper-btn {
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: inline;
+    height: 30px;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+    padding: 2px;
+    position: right;
+    text-decoration: none;
+    width: 6em;
+  }
+  
+  .upper-btn:hover {
+    color: rgb(194, 35, 35);
+  }
+
+  .Input-label {
+    display: inline;
+    position: static;
+    left: 1rem;
+    color: rgb(121, 20, 20);
+    font-family: 'Courier New', Monospace;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 15px;
+  }
+
+.btn {
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: block;
+    height: 40px;
+    font-size: 1.4em;
+    font-weight: 400;
+    text-align: center;
+    padding: 3px;
+    text-decoration: none;
+    width: 10em;
+  }
+  
+  .btn:hover {
+    color: rgb(31, 24, 94);
+  }

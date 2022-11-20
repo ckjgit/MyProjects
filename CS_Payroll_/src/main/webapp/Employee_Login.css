@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    background-repeat: round;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Muli', sans-serif;
+    margin-top: 40px;
+}
+
+.anchor{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #d48c72;
+}
+a:hover{
+    color: #86d472;
+}
+
+.regform{
+    width: 500px;
+    background-color:rgb(0, 0, 0, 0.6);
+    margin:auto;
+    color: #FFFFFF;
+    padding: 6px 0px 6px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.main{
+    background-color: rgba(51, 42, 42, 0.5);
+    width: 500px;
+    margin:auto;
+    border-radius: 0px 0px 15px 15px;
+}
+form{
+    padding: 10px;
+}
+#name{
+    width: 100%;
+    height: 100px;
+}
+.name{
+    font-family: 'Muli', sans-serif;
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.number{
+    position: relative;
+    background-color: #adbfce;
+    left: 180px;
+    top: -37px;
+    line-height: 35px;
+    width: 200px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: larger;
+    color: rgb(41, 33, 33);
+}
+
+.password{
+    position: relative;
+    background-color: #adbfce;
+    left: 180px;
+    top: -37px;
+    line-height: 35px;
+    width: 200px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: larger;
+    color: rgb(41, 33, 33);
+}
+
+
+.button{
+    background-color: #3e8f84;
+    display: block;
+    margin: 30px 20px 10px 110px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #366473;
+    padding: 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+    left: 180px;
+}
+.button :hover{
+    background-color: #008aff;
+    color: #af0e0e;
+}

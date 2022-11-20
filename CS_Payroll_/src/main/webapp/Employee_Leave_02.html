@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Employee_Leave.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Leave</title>
+</head>
+<body>
+    <h1 class="Title">Employee Leave</h1>
+
+    <hr>
+    <form action="./s018" method="get">
+    <table class="table01" align="center">
+        <tr>
+            <td class="td1">
+                <label for="">Leave Types : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <select name="ltype" id="" class="Input-select">
+                    <option value="" selected disabled hidden></option>
+                    <option value="Casual Leave">Casual Leave</option>
+                    <option value="Annual Leave">Annual Leave</option>
+                    <option value="Medical Leave">Medical Leave</option>
+                    <option value="Maternity/Paternity">Maternity/Paternity</option>
+                    <option value="Compasionate Leave">Compasionate Leave</option>
+                    <option value="Unpaid Leave">Unpaid Leave</option>
+                    <option value="Others">Others</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="td1">
+                <label for="">Leave From Date : &nbsp;&nbsp;</label>
+                <input type="date" name="lfd" class="Input-date" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="td1">
+                <label for="">Leave To Date : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="date" name="ltd" class="Input-date" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="td1">
+                <label for="">Duration of Leaves : </label>
+                <input type="number" name="dleave" id="" class="Input-number" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="tdf">
+                <fieldset>
+                    <legend>Reason</legend>
+                    <textarea name="reason" id="" cols="36" rows="6" maxlength="50" minlength="20"></textarea>
+                </fieldset>
+            </td>
+        </tr>
+    </table>
+<center>NB: At a time one leave should be applied, multiple applied leave may be rejected..</center><br>
+    <hr>
+    <br>
+
+    <table width = "15%" align="center">
+        <tr>
+            <td>
+                <input type="reset" value="RESET" class="btn"></input>
+            </td>
+
+            <td>
+                <input type="submit" value="SUBMIT" class="btn"></input>
+            </td>
+        </tr>
+    </table>
+    		<center>	<h2>Opps...Seems your last applied leave is not sanctioned yet !!</h2></center>
+    
+    </form>
+</body>
+</html>

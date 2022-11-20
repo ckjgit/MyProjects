@@ -1,0 +1,109 @@
+body{
+    font-family: 'Muli', sans-serif;
+    background-color: rgb(160, 197, 230);
+  }
+
+  .Title {
+    color: rgb(90, 41, 41);
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+  }
+
+.table01{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:separate;
+    border-spacing: 0em 1.5em;
+  }
+
+  .td1{
+    text-align: left;
+  }
+  
+  .tdm{
+    text-align: center;
+  }
+
+.Input-date {
+    display: inline-block;
+    margin: 0;
+    padding: 1 em;
+    color: #225671;
+    background-color: #dee8f1;
+    height: 30%;
+    width: 50%;
+    font-family: Monospace;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    border: none;
+    border-radius: 0.3rem;
+  }
+
+  .Input-number {
+    display: inline-grid;
+    margin: 0;
+    padding: 1 em;
+    color: #225671;
+    background-color: #dbeaf8;
+    height: 30%;
+    width: 50%;
+    font-family: Monospace;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    border: none;
+    border-radius: 0.3rem;
+  }
+
+  .Input-select {
+    display: inline-grid;
+    margin: 0;
+    padding: 1 em;
+    color: #225671;
+    background-color: #dbeaf8;
+    height: 30%;
+    width: 50%;
+    font-family: Monospace;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    border: none;
+    border-radius: 0.3rem;
+  }
+
+  input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+  }
+  input[type=date]:focus::-webkit-datetime-edit {
+    color: #225671 !important;
+  }
+
+  textarea{
+    color: #225671;
+    background-color: #dbeaf8;
+    font-size: 16px;
+    font-weight: 80;
+  }
+
+  .btn {
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: block;
+    height: 30px;
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    padding: 3px;
+    text-decoration: none;
+    width: 5em;
+    z-index: 2;
+  }
+  
+  .btn:hover {
+    color: rgb(194, 35, 35);
+  }

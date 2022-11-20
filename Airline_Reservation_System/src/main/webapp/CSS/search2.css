@@ -1,0 +1,177 @@
+    *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            
+            background-position: center;
+            background-size: cover;
+            font-family: sans-serif;
+            margin-top: 40px;
+        }
+        .regform{
+            width: 800px;
+            background-color:rgb(0, 0, 0, 0.6);
+            margin:auto;
+            color: #FFFFFF;
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+            border-radius: 15px 15px 0px 0px;
+        }
+
+        .main{
+            background-color: rgb(0, 0, 0, 0.5);
+            width: 800px;
+            margin:auto;
+        }
+        form{
+            padding: 10px;
+        }
+        #name{
+            width: 100%;
+            height: 100px;
+        }
+        .name{
+            margin-left: -300px;
+            margin-top: 30px;
+            width: 50;
+            color: white;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        
+        
+        
+        
+        .option{
+            position: relative;
+            left: 100px;
+            top: -40px;
+            line-height: 40px;
+            width: 227px;
+            height: 25px;
+            border-radius: 6px;
+            padding: 0 22px;
+            font-size: 16px;
+            color: #555;
+            outline: none;
+            overflow: hidden;
+        }
+        .option option{
+            font-size: 10px;
+        }
+        .radio{
+            display: inline-block;
+            padding-right: 70px;
+            font-size: 25px;
+            margin-left: 25px;
+            margin-top: 15px;
+            color: white;
+        }
+        .radio input{
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            outline: none;
+        }
+        button{
+            background-color: #3BAF9F;
+            display: block;
+            margin: 40px 20px 0px 250px;
+            text-align: center;
+            border-radius: 12px;
+            border: 2px solid #366473;
+            padding: 14px 110px;
+            outline: none;
+            color: white;
+            cursor: pointer;
+            transition: 0.25px;
+            left: 180px;
+        }
+        button :hover{
+            background-color: #5390F5;
+        }
+        
+/*Style.css*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+header {
+    padding: 40px;
+    background-color: rgb(17, 124, 143);
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+main {
+	background-image : url("Plane_Image/Sky02.jpg");
+    background-size : cover;
+    text-align: center;
+    width : 100%;
+}
+
+h2 {
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 100vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}

@@ -1,0 +1,46 @@
+body{
+    font-family: 'Muli', sans-serif;
+    background-color: rgb(160, 197, 230);
+  }
+
+
+  .Title {
+    color: rgb(90, 41, 41);
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(63, 11, 11);
+  }
+
+  .table01{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:separate;
+    border-spacing: 8em 4em;
+  }
+
+  .td1{
+    text-align: right;
+  }
+
+  .lb1{
+    text-align: center;
+    font-family: cursive;
+  }
+
+  .box{
+    border: 3px solid green;
+    background-image: linear-gradient(135deg, #008aff, #91d582);
+    color: black;
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  h2 {
+    padding: 20px;
+}

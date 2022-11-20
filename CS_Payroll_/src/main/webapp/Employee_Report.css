@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(182, 205, 225);
+}
+
+.td1{
+  text-align: right;
+}
+
+.tdm{
+  text-align: center;
+}
+
+.td2{
+  text-align: left;
+}
+
+.tdb{
+    text-align: center;
+}
+
+  .Input-select {
+    display: inline;
+    margin: 0;
+    padding: 1 em;
+    color: #063c59;
+    background-color: #dee8f1;
+    height: 30%;
+    width: 50%;
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 25px;
+    border: none;
+    border-radius: 0.3rem;
+  }
+
+  
+  .Input-label {
+    display: inline;
+    position: static;
+    left: 1rem;
+    color: rgb(121, 20, 20);
+    font-family: 'Courier New', Monospace;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 15px;
+  }
+
+  .Title {
+    color: rgb(90, 41, 41);
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  
+
+  .btn {
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: block;
+    height: 30px;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+    padding: 2px;
+    
+    text-decoration: none;
+    width: 6em;
+  }
+  
+  .btn:hover {
+    color: rgb(194, 35, 35);
+  }

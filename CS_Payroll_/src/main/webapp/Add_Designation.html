@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Add_Designation.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Designation</title>
+</head>
+<body>
+  <h1 class="Title">Add Designation</h1>
+    <hr><br>
+
+    <form action="./s06" method="get">
+        <table class="table01">
+            <tr class="tr1">
+                <td class="td1">
+                    <label for="">Designation : </label>
+                </td>
+                <td class="td2">
+                        <select name="designation" id="">
+                            <option value="" selected disabled hidden></option>
+                            <option value="software engineer">Software Engineer</option>
+                            <option value="Sr. Software Engineer">Sr. Software Engineer</option>
+                            <option value="Project Manager">Project Manager</option>
+                            <option value="Finance Manager">Finance Manager</option>
+                            <option value="Web Developer">Web Developer</option>
+                            <option value="Full Stack Developer">Full Stack Developer</option>
+                            <option value="Business Analytics">Business Analytics</option>
+                            <option value="Account Executive">Account Executive</option>
+                        </select>
+                </td>
+
+                <td  class="td1">
+                    <label for="">Basic Pay : </label>
+                </td>
+                <td class="td2">
+                        <input class="effect-9" type="number" step="0.01" name="basicpay" id="" required>
+                </td>
+
+                <td class="td1">
+                    <label for="">Salary : </label>
+                </td>
+                <td class="td2">
+                        <input class="effect-9" type="number" step="0.01" name="salary" id="" required>
+                </td>
+            </tr>
+
+            <tr class="tr1">
+                <td class="td1">
+                    <label for="">TA : </label>
+                </td>
+                <td class="td2">
+                        <input class="effect-9" type="number" step="0.01" name="travel" id=""  required>
+                </td>
+
+                <td class="td1">
+                    <label for="">DA : </label>
+                </td>
+                <td class="td2">
+                        <input class="effect-9" type="number" step="0.01" name="dearness" id=""  required>
+                </td>
+
+                <td class="td1">
+                    <label for="">MA : </label>
+                </td>
+                <td class="td2">
+                        <input class="effect-9" type="number" step="0.01" name="medical" id=""  required>
+                </td>
+            </tr>
+
+            <tr class="tr1">
+                <td class="td1">
+                    <label for="">HRA : </label>
+                </td>
+                <td class="td2">
+                        <input class="effect-9" type="number" step="0.01" name="hra" id=""  required>
+                </td>
+            </tr>
+        </table>
+
+        <br><br>
+        <table align="center">
+            <tr>
+                <td>
+                    <input type="reset" class="button" value="RESET">
+                </td>
+                <td>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+                <td>
+                    <input type="submit" class="button" value="SUBMIT">
+                </td>
+            </tr>
+        </table>
+            
+    </form>
+</body>
+</html>

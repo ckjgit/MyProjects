@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="Generate_Salary.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Salary</title>
+
+</head>
+
+<body>
+	
+	<h1 class="Title">Generate Salary</h1>
+    <hr><br><br>
+	
+	<form action="./s09" method="get">
+	
+	<table>
+		<tr>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td>
+				<label for="input" class="Input-label-01">Select Month :  </label>
+				<input type="month" class="Input-select" name="" id="">
+			</td>
+			
+			
+			
+			
+				
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>		
+			
+			<td>
+						<select  class="Input-select" name="eid" required>
+						<%
+						
+
+						try
+						{
+							
+						
+					
+					
+						//--------------------------------------DataBase Create and Link--------------------------------
+					
+							Class.forName("com.mysql.jdbc.Driver");
+							Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/sys","root","Ckj123@0909");
+							
+							Statement st=con.createStatement();
+							String s="select eid from employee  ";
+							
+							ResultSet rs=st.executeQuery(s);
+							while(rs.next()!=false){
+							%>	
+								
+				                    <option><%=rs.getString(1) %></option>
+				                    
+			               		 
+								
+							<%	
+							}
+							
+							
+							
+							
+						}
+						//catch(ServletException e){out.print(e.getMessage());}
+						catch(Exception e)
+							{out.print(e.getMessage());out.print("<br>Error Throws..");}
+				
+						
+						%>
+							</select>
+					</td>
+
+			<td>
+				<input type="submit" value="SEARCH" class="upper-btn"></input>
+			</td>
+		</tr>
+	</table>
+
+	<br><br>
+
+	
+			<br>	<hr>
+		
+
+		
+	</form>
+</body>
+</html>

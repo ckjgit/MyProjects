@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinmaykumarjena/Downloads/freetts-1.2.2-bin/freetts-1.2/lib/freetts.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinmaykumarjena/Downloads/freetts-1.2.2-bin/freetts-1.2/lib/cmu_time_awb.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinmaykumarjena/Downloads/freetts-1.2.2-bin/freetts-1.2/lib/cmu_us_kal.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinmaykumarjena/Downloads/freetts-1.2.2-bin/freetts-1.2/lib/cmudict04.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinmaykumarjena/Downloads/freetts-1.2.2-bin/freetts-1.2/lib/cmulex.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinmaykumarjena/Downloads/freetts-1.2.2-bin/freetts-1.2/lib/cmutimelex.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinmaykumarjena/Downloads/freetts-1.2.2-bin/freetts-1.2/lib/en_us.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinmaykumarjena/Downloads/freetts-1.2.2-bin/freetts-1.2/lib/freetts-jsapi10.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinmaykumarjena/Downloads/freetts-1.2.2-bin/freetts-1.2/lib/mbrola.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinmaykumarjena/Downloads/freetts-1.2.2-bin/freetts-1.2/bin/Client.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinmaykumarjena/Downloads/freetts-1.2.2-bin/freetts-1.2/bin/EmacspeakServer.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinmaykumarjena/Downloads/freetts-1.2.2-bin/freetts-1.2/bin/FreeTTSEmacspeakServer.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinmaykumarjena/Downloads/freetts-1.2.2-bin/freetts-1.2/bin/FreeTTSHelloWorld.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinmaykumarjena/Downloads/freetts-1.2.2-bin/freetts-1.2/bin/HelloWorld.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinmaykumarjena/Downloads/freetts-1.2.2-bin/freetts-1.2/bin/JTime.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinmaykumarjena/Downloads/freetts-1.2.2-bin/freetts-1.2/bin/MixedVoices.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinmaykumarjena/Downloads/freetts-1.2.2-bin/freetts-1.2/bin/Player.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinmaykumarjena/Downloads/freetts-1.2.2-bin/freetts-1.2/bin/Server.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinmaykumarjena/Downloads/freetts-1.2.2-bin/freetts-1.2/bin/WebStartClock.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

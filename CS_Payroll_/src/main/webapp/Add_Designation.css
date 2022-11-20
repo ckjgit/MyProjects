@@ -1,0 +1,81 @@
+
+body{
+  font-family: 'Muli', sans-serif;
+  background-color: rgb(182, 205, 225);
+}
+
+.Title {
+  color: rgb(90, 41, 41);
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(63, 11, 11);
+}
+
+
+.table01{
+  margin-left: auto ;
+  margin-right: auto;
+  width: 100%;
+}
+
+.tr1{
+  padding: 20px;
+  height: 50px;
+}
+
+.td1{
+  text-align: right;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+
+.td2{
+  text-align: left;
+}
+
+label{
+  font: 22px "Lato", Courier, sans-serif;
+  color: #0c4b56; 
+  font-weight: bold;
+}
+
+input[type="number"], [type="text"], select{
+    font: 15px/20px "Lato", Arial, sans-serif; 
+    box-sizing: border-box; 
+    letter-spacing: 2px;
+    margin: 4 em;
+    padding: 2 em;
+    color: #225671;
+    background-color: #dbeaf8;
+    width: 80%;
+    font-size: 20px;
+    font-weight: 100;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+
+
+.button {
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #f34444;
+    display: block;
+    height: 40px;
+    font-size: 1.4em;
+    font-weight: 700;
+    text-align: center;
+    padding: 3px;
+    position: relative;
+    text-decoration: none;
+    width: 7em;
+    z-index: 2;
+  }
+  
+  .button:hover {
+    color: rgb(29, 15, 92);
+  }
+  
+  

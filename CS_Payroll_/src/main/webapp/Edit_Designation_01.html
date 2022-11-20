@@ -1,0 +1,98 @@
+
+   
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	<link rel="stylesheet" href="Add_Designation.css">
+	<link rel="stylesheet" href="Generate_Salary.css">
+	
+    
+    
+
+    <style>
+        .form-submit-button {
+        background: #2485cf;
+        padding: 10px 20px;
+        color: #fff;
+        border: 1px solid #eee;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px rgb(201, 199, 199);
+        text-shadow: none;
+        font-size: 15px;
+        }
+        .form-submit-button:hover {
+        background: #d54521;
+        padding: 10px 20px;
+        color: #fff;
+        border: 1px solid #eee;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px rgb(177, 106, 106);
+        text-shadow: none;
+        font-size: 15px;
+        }
+        
+        .Input-select {
+	    display: inline;
+	    margin: 0;
+	    padding: 1 em;
+	    color: #225671;
+	    background-color: #dee8f1;
+	    height: 30%;
+	    width: 100%;
+	    font-family: Monospace, Courier;
+	    font-size: 20px;
+	    font-weight: 100;
+	    line-height: 25px;
+	    border: none;
+	    border-radius: 0.3rem;
+	  }
+
+    </style>
+	</head>
+	
+	<body>
+	
+	
+	
+	<form action="./s010" method="get">
+		<center><br><br><hr>
+			
+			<font color="blue" size="6" font-family: Georgia, serif> Edit Designation </font>
+			
+			
+			<br><hr><br><br><br>
+			<table>
+				<tr>
+					<td>
+                		<label for="input" class="Input-label-01">Designation :</label>
+					</td>
+					
+					<td>
+						  <select class="Input-select" name="designation" required id="">
+                	<option>Select</option>
+                    <option value="software engineer">Software Engineer</option>
+                    <option value="Sr. Software Engineer">Sr. Software Engineer</option>
+                    <option value="Project Manager">Project Manager</option>
+                    <option value="Finance Manager">Finance Manager</option>
+                    <option value="Web Developer">Web Developer</option>
+                    <option value="Full Stack Developer">Full Stack Developer</option>
+                    <option value="Business Analytics">Business Analytics</option>
+                    <option value="Account Executive">Account Executive</option>
+                  </select>
+				
+					</td>
+				</tr>
+			
+			</table>
+		
+		
+	
+		 
+            
+            <br><br>
+             <input type="submit" value="Next" class="form-submit-button">
+         </center>
+        </form>
+	</body>
+</html>

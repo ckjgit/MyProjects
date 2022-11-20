@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  
+  <display-name>CS_Payroll_</display-name>
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  
+  
+  	<servlet>
+		<servlet-name>CHINA</servlet-name>
+        <jsp-file>/Admin_Validation.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>CHINA</servlet-name>
+		<url-pattern>/s0</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet>
+		<servlet-name>a</servlet-name>
+        <jsp-file>/Admin_Home_Include.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>a</servlet-name>
+		<url-pattern>/s02</url-pattern>
+	</servlet-mapping>
+  
+  
+  	<servlet>
+  		<servlet-name>b</servlet-name>
+  		<jsp-file>/Admin_Login.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>b</servlet-name>
+  		<url-pattern>/s03</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>c</servlet-name>
+  		<jsp-file>/Add_Designation_Include.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>c</servlet-name>
+  		<url-pattern>/s04</url-pattern>
+  	</servlet-mapping>
+  	
+  	
+  	<servlet>
+  		<servlet-name>d</servlet-name>
+  		<jsp-file>/Add_Employee_Include.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>d</servlet-name>
+  		<url-pattern>/s05</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>e</servlet-name>
+  		<jsp-file>/Add_Designation_Include02.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>e</servlet-name>
+  		<url-pattern>/s06</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>f</servlet-name>
+  		<jsp-file>/Add_Employee_Include02.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>f</servlet-name>
+  		<url-pattern>/s07</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>g</servlet-name>
+  		<jsp-file>/Employee_Report_Include02.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>g</servlet-name>
+  		<url-pattern>/s08</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>h</servlet-name>
+  		<jsp-file>/Generate_Salary_Include02.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>h</servlet-name>
+  		<url-pattern>/s09</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>i</servlet-name>
+  		<jsp-file>/Edit_Designation_Include_02.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>i</servlet-name>
+  		<url-pattern>/s010</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>j</servlet-name>
+  		<jsp-file>/Edit_Designation_Include_03.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>j</servlet-name>
+  		<url-pattern>/s011</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>k</servlet-name>
+  		<jsp-file>/Change_Password_Include_02.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>k</servlet-name>
+  		<url-pattern>/s012</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>l</servlet-name>
+  		<jsp-file>/Edit_Employee_Include_02.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>l</servlet-name>
+  		<url-pattern>/s013</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>m</servlet-name>
+  		<jsp-file>/Edit_Employee_Include_03.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>m</servlet-name>
+  		<url-pattern>/s014</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>n</servlet-name>
+  		<jsp-file>/Employee_Home_Include_01.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>n</servlet-name>
+  		<url-pattern>/s015</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>o</servlet-name>
+  		<jsp-file>/Employee_Login.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>o</servlet-name>
+  		<url-pattern>/s016</url-pattern>
+  	</servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>p</servlet-name>
+  		<jsp-file>/Employee_Login_Process.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>p</servlet-name>
+  		<url-pattern>/s017</url-pattern>
+  	</servlet-mapping>
+  
+   <servlet>
+  		<servlet-name>q</servlet-name>
+  		<jsp-file>/Employee_Leave_Process.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>q</servlet-name>
+  		<url-pattern>/s018</url-pattern>
+  	</servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>r</servlet-name>
+  		<jsp-file>/Generate_Salary_Process.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>r</servlet-name>
+  		<url-pattern>/s019</url-pattern>
+  	</servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>s</servlet-name>
+  		<jsp-file>/Salary_Report_Process_Error.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>s</servlet-name>
+  		<url-pattern>/s020</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>t</servlet-name>
+  		<jsp-file>/Emp_Salary_Report_Include_02.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>t</servlet-name>
+  		<url-pattern>/s021</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>u</servlet-name>
+  		<jsp-file>/Emp_Change_Password_Include02.jsp</jsp-file>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>u</servlet-name>
+  		<url-pattern>/s022</url-pattern>
+  	</servlet-mapping>
+  
+</web-app>
